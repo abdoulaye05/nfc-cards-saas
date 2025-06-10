@@ -1,10 +1,15 @@
 {
   "name": "nfc-cards-app",
   "version": 2,
+  "build": {
+    "env": {
+      "REACT_APP_API_URL": "https://nfc-backend-mobydev.railway.app"
+    }
+  },
   "buildCommand": "cd frontend && npm ci && npm run build",
   "outputDirectory": "frontend/build",
   "installCommand": "cd frontend && npm ci",
-  "framework": "create-react-app",
+  "framework": null,
   "regions": ["fra1"],
   "functions": {},
   "rewrites": [
@@ -39,14 +44,5 @@
         }
       ]
     }
-  ],
-  "env": {
-    "REACT_APP_API_URL": "https://nfc-backend-mobydev.railway.app",
-    "REACT_APP_ENVIRONMENT": "production"
-  },
-  "build": {
-    "env": {
-      "REACT_APP_API_URL": "https://nfc-backend-mobydev.railway.app"
-    }
-  }
+  ]
 } 

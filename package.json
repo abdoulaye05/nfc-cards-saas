@@ -1,0 +1,37 @@
+{
+  "name": "nfc-cards-saas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modern NFC Cards SaaS Platform with React & Node.js",
+  "scripts": {
+    "install": "cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start",
+    "dev": "cd frontend && npm start",
+    "backend": "cd backend && node server.js",
+    "launch": "./launch.sh"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdoulaye05/nfc-cards-saas.git"
+  },
+  "keywords": [
+    "nfc",
+    "cards",
+    "saas",
+    "react",
+    "nodejs",
+    "qr-code",
+    "digital-business-cards"
+  ],
+  "author": "Mobydev",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+} 
