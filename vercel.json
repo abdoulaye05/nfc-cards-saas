@@ -6,9 +6,9 @@
       "REACT_APP_API_URL": "https://nfc-backend-mobydev.railway.app"
     }
   },
-  "buildCommand": "cd frontend && npm ci && npm run build",
+  "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/build",
-  "installCommand": "cd frontend && npm ci",
+  "installCommand": "cd frontend && npm install",
   "framework": null,
   "regions": ["fra1"],
   "rewrites": [
