@@ -1,5 +1,5 @@
 // API des cartes avec Supabase
-const { supabase } = require('../_supabase');
+import { supabase } from '../_supabase.js';
 
 export default async function handler(req, res) {
   // Configuration CORS
